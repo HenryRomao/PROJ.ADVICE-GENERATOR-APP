@@ -1,0 +1,56 @@
+main {
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope', system-ui;
+    width: 800;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    padding: 0 15px;
+}
+
+.card-advice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 540px;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.card-advice .advice-number {
+    font-size: 15px;
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 30px;
+}
+
+.card-advice .advice {
+    font-size: 28px;
+    text-align: center;
+    
+    color: hsl(193, 38%, 86%);
+    padding: 25px;
+}
+
+.card-advice picture img {
+    width: 100%;
+}
+
+.card-advice .advice-generator {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    transform: translateY(85%);
+}
+
+.card-advice .advice-generator:hover {
+    background-color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 50px hsl(150, 100%, 66%);
+}
