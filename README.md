@@ -9,7 +9,7 @@ Os usuários devem ser capazes de:
 
 - Ver o layout ideal para o aplicativo dependendo do tamanho da tela do dispositivo.
 
-- Gere um novo conselho clicando no ícone de dados.
+- Gerar um novo conselho clicando no ícone de dados.
 
 # PS: Projeto ainda não finalizado.
 
